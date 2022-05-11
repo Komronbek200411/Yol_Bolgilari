@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/YolBelgilari/app/src/main/res/drawable/circle.xml" value="0.155" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/activity_main.xml" value="0.15940685820203893" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/deletedialog.xml" value="0.12158054711246201" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/dialog_show.xml" value="0.12158054711246201" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/edit_dialog.xml" value="0.12158054711246201" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/fragment_about_fragment.xml" value="0.25" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/fragment_add.xml" value="0.14855072463768115" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/fragment_buyuruvchi.xml" value="0.14855072463768115" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/fragment_home_fragment.xml" value="0.25" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/fragment_imtiyozli.xml" value="0.2" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/fragment_likes.xml" value="0.264" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/fragment_ogohlantiruvchi.xml" value="0.12158054711246201" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/fragment_taqiqlovchi.xml" value="0.25" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/item_page.xml" value="0.13179347826086957" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/item_rv.xml" value="0.2" />
+        <entry key="..\:/YolBelgilari/app/src/main/res/layout/item_spinner.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

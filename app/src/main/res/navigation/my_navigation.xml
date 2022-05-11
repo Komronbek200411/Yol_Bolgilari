@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.bunyodjon.yolbelgilari.Home_fragment"
+        android:label="fragment_home_fragment"
+        tools:layout="@layout/fragment_home_fragment" >
+        <action
+            android:id="@+id/action_home_fragment_to_about_fragment"
+            app:destination="@id/about_fragment" />
+        <action
+            android:id="@+id/action_home_fragment_to_likes_fragment"
+            app:destination="@id/likes_fragment" />
+        <action
+            android:id="@+id/action_home_fragment_to_addFragment"
+            app:destination="@id/addFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/likes_fragment"
+        android:name="com.bunyodjon.yolbelgilari.Likes_fragment"
+        android:label="fragment_likes"
+        tools:layout="@layout/fragment_likes" >
+        <action
+            android:id="@+id/action_likes_fragment_to_about_fragment"
+            app:destination="@id/about_fragment" />
+        <action
+            android:id="@+id/action_likes_fragment_to_home_fragment"
+            app:destination="@id/home_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/about_fragment"
+        android:name="com.bunyodjon.yolbelgilari.About_fragment"
+        android:label="fragment_about_fragment"
+        tools:layout="@layout/fragment_about_fragment" >
+        <action
+            android:id="@+id/action_about_fragment_to_home_fragment"
+            app:destination="@id/home_fragment" />
+        <action
+            android:id="@+id/action_about_fragment_to_likes_fragment"
+            app:destination="@id/likes_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.bunyodjon.yolbelgilari.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+</navigation>
